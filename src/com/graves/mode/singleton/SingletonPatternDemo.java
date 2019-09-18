@@ -4,15 +4,11 @@
 package com.graves.mode.singleton;
 
 /**
- * <p>
- * Title: SingletonPatternDemo
- * </p>
- * <p>
- * Description:
- * </p>
- * 
- * @author Graves
- * @date 2019年9月17日
+ * 单例模式（Singleton Pattern）
+ * <p>Title: SingletonPatternDemo</p>  
+ * <p>Description: </p>  
+ * @author Graves  
+ * @date 2019年9月18日
  */
 public class SingletonPatternDemo {
 	public static void main(String[] args) {
