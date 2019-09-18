@@ -4,6 +4,7 @@
 package com.graves.mode.prototype;
 
 /**  
+ * 原型模式（Prototype Pattern）
  * PrototypePatternDemo 使用 ShapeCache 类来获取存储在 Hashtable 中的形状的克隆。
  * <p>Title: PrototypePatternDemo</p>  
  * <p>Description: </p>  
