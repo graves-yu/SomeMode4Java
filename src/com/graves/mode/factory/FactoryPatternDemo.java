@@ -4,6 +4,7 @@
 package com.graves.mode.factory;
 
 /**  
+ * 工厂模式（Factory Pattern）
  * 使用该工厂，通过传递类型信息来获取实体类的对象。
  * <p>Title: FactoryPatternDemo</p>  
  * <p>Description: </p>  
