@@ -30,15 +30,16 @@ public abstract  class Shape implements Cloneable {
 	      this.id = id;
 	   }
 	   
-	   //具体原型角色：实现用于复制现有实例来生成新实例的方法
-	   // 2.定义复制现有实例来生成新实例的方法
-	   public Object clone() {	
-	      Object clone = null;
-	      try {
-	         clone = super.clone();
-	      } catch (CloneNotSupportedException e) {
-	         e.printStackTrace();
-	      }
-	      return clone;
-	   }
+	// 具体原型角色：实现用于复制现有实例来生成新实例的方法
+	// 2.定义复制现有实例来生成新实例的方法
+	@Override
+	public Object clone() {
+		Object clone = null;
+		try {
+			clone = super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return clone;
+	}
 }

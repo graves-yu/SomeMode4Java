@@ -15,8 +15,9 @@ import com.graves.mode.adapter.sdCard.SDCard;
 public class HuaweiComputer implements Computer {
 	@Override
 	public String readSD(SDCard sdCard) {
-		if (sdCard == null)
+		if (sdCard == null) {
 			throw new NullPointerException("sd card null");
+		}
 		return sdCard.readSD();
 	}
 }
