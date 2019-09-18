@@ -12,6 +12,7 @@ import com.graves.mode.adapter.tfCard.TFCard;
 import com.graves.mode.adapter.tfCard.TFCardImpl;
 
 /**  
+ * 适配器模式（Adapter Pattern）
  * <p>Title: ComputerReadDemo</p>  
  * <p>Description: </p>  
  * @author Graves  
