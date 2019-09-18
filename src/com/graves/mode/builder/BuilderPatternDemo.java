@@ -4,6 +4,7 @@
 package com.graves.mode.builder;
 
 /**  
+ * 建造者模式（Builder Pattern）
  * BuiderPatternDemo 使用 MealBuider 来演示建造者模式（Builder Pattern）。
  * <p>Title: BuilderPatternDemo</p>  
  * <p>Description: </p>  
