@@ -7,7 +7,7 @@ import com.graves.mode.abstractFactory.color.Color;
 import com.graves.mode.abstractFactory.shape.Shape;
 
 /**  
- * 使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
+ *  使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
  * <p>Title: AbstractFactoryPatternDemo</p>  
  * <p>Description: </p>  
  * @author Graves  
