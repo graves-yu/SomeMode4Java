@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.graves.mode.templatepattern;
+package com.graves.mode.template;
 
 /** 
  * 英雄联盟 

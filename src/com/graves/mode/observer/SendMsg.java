@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.graves.mode.ObserverPattern;
+package com.graves.mode.observer;
 
 /**  
  * <p>Title: SendMsg</p>  
