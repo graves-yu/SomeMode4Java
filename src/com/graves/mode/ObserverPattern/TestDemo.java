@@ -14,6 +14,7 @@ public class TestDemo {
 		Bookmark bookmark = new Bookmark();
 		new UserOperateRecord(bookmark);
 		new SendMsg(bookmark);
-		bookmark.addBoolmark();
+		BookmarkService bookmarkService = new BookmarkService();
+		bookmarkService.addBookmark(bookmark);
 	}
 }

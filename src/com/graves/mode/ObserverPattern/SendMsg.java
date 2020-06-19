@@ -23,7 +23,7 @@ public class SendMsg extends Observer{
 	 * @date 2020年6月19日     
 	 */ 
 	@Override
-	public void add() {
+	public void execute() {
 		System.out.println("发送一条添加消息到消息队列");
 	}
 

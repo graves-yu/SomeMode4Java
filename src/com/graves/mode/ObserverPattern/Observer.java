@@ -11,5 +11,5 @@ package com.graves.mode.ObserverPattern;
  */
 public abstract class Observer {
 	 protected Bookmark bookmark;
-	 public abstract void add();
+	 public abstract void execute();
 }

@@ -22,7 +22,7 @@ public class UserOperateRecord extends Observer{
 	 * @date 2020年6月19日     
 	 */ 
 	@Override
-	public void add() {
+	public void execute() {
 		System.out.println("添加了用户操作记录");
 	}
 	
